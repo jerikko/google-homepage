@@ -1,10 +1,122 @@
-#search-bar
-    {
-        margin: 0 auto;
-        width: 482px;
-        height: 44px;
-        border-radius: 24px;
-        border: 1px solid #dfe1e5;
-    }
+header {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
 
-#
+#left-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#about {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 0px 0px 15px;
+}
+
+#store {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 0px 0px 15px;
+}
+
+#right-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#gmail {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 0px 0px 15px;
+}
+
+#images {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 0px 0px 15px;
+}
+
+#apps {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 0px 0px 15px;
+}
+
+#sign-in {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0px 12px;
+}
+
+#google-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    display: flex;
+    min-width: 482px;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+}
+
+#search-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+#lucky-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+footer {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#right-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
